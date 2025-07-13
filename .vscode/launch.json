@@ -6,8 +6,10 @@
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "${file}",
-            "console": "integratedTerminal"
+            "program": "${fileDirname}",
+            "console": "integratedTerminal",
+            "env": {},
+            "args": []
         }
     ]
 }
